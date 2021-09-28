@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "website for online shopping",
   "main": "app.js",
+  "engines": {
+    "node": "14.17.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production MONGO_USER=KD MONGO_PASSWORD=bPBm0xQJz5tdOeYs MONGO_DEFAULT_DATABASE=ecomm node app.js",
