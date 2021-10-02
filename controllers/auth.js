@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
       api_key:
-        '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'
+        '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'
     }
   })
 );
@@ -213,7 +213,7 @@ exports.postReset = (req, res, next) => {
           subject: 'Password reset',
           html: `
             <p>You requested a password reset</p>
-            <p>Click this <a href="http://localhost:3000/reset/${token}">link</a> to set a new password.</p>
+            <p>Click this <a href="https://powerful-brook-05214.herokuapp.com/reset/${token}">link</a> to set a new password.</p>
           `
         });
       })

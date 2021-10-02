@@ -8,10 +8,11 @@
 <body>
    <%- include('../includes/navigation.ejs') %>
   
-<% if (errorMessage) { %>
-    <div class="user-message user-message--error"><%= errorMessage %></div>
-<% } %>
+
     <div class="lin">
+      <% if (errorMessage) { %>
+        <div class="user-message user-message--error"><%= errorMessage %></div>
+    <% } %>
     <div class="container">
       <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
